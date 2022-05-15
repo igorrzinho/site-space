@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap");
+
+body {
+  background: url(../assets//destination/background-destination-desktop.jpg);
+}
+
+.title {
+  font-family: "Barlow Condensed";
+  font-weight: 400;
+  margin-left: 165px;
+  color: #fff;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+}
+
+.title span {
+  opacity: 0.25;
+  margin-right: 28px;
+}
+
+.img-destination {
+  position: absolute;
+  width: 445px;
+  height: 445px;
+  left: 230px;
+  top: 343px;
+  padding-bottom: 112px;
+}
+
+.text-destination {
+  position: absolute;
+  width: 445px;
+  height: 472px;
+  left: 832px;
+  top: 310px;
+}
+
+.menu-destination {
+  margin: 0;
+  height: 34px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.menu-destination ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-destination ul li {
+  display: inline;
+  padding-right: 34px;
+  text-transform: uppercase;
+  letter-spacing: 2.7px;
+  font-family: "Barlow Condensed", sans-serif;
+  transform: 2s;
+}
+
+.menu-destination a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.menu-destination a.active {
+  padding-bottom: 12px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.menu-destination ul li a:hover {
+  padding-bottom: 12px;
+  border-bottom: 3px solid #ffffff;
+  opacity: 0.5;
+}
+
+.title-destination {
+  height: 115px;
+  margin: 0;
+  margin-top: 37px;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+}
+
+#p-destination {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d6f9;
+}
+
+.line2 {
+  position: absolute;
+  height: 1px;
+  width: 100%;
+
+  background: #383b4b;
+}
+
+.constainer-distance {
+  margin: 28px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.distance {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 2.3625px;
+  text-transform: uppercase;
+
+  color: #d0d6f9;
+}
+
+#distance-p {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#time-p {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
