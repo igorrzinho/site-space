@@ -138,8 +138,12 @@ header {
   right: 165px;
 }
 
-.circle p {
+.circle a {
   font-size: 2rem;
   text-transform: uppercase;
   font-family: "Bellefair";
+}
+
+.circle:hover{
+  box-shadow: 0px 0px 0px 100px rgba(255, 255, 255, 0.1);
 }
